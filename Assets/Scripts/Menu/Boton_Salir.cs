@@ -16,7 +16,7 @@ public class Boton_Salir : MonoBehaviour
     }
 
     public void activate(){
-        Application.Quit();
         Debug.Log("Salio");
+        Application.Quit();
     }
 }

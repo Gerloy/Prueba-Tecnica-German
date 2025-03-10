@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8677501180150137604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3993777038436601870}
+  - component: {fileID: 7294560594971617910}
+  m_Layer: 0
+  m_Name: Spawner_enemigos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3993777038436601870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677501180150137604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1045, y: 497, z: 824.76135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7294560594971617910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677501180150137604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef957ffdae217f45b907e0a3754114a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ani_debil:
+  - {fileID: 156627578, guid: 8a194b93f8f48e24cb2a51193184f640, type: 3}
+  - {fileID: -535580767, guid: 8a194b93f8f48e24cb2a51193184f640, type: 3}
+  puntos_debil: 100
+  vida_debil: 1
+  ani_medio:
+  - {fileID: 1688415139, guid: 14d9cc5e30050294b9faabbeef744b57, type: 3}
+  - {fileID: -550961574, guid: 14d9cc5e30050294b9faabbeef744b57, type: 3}
+  puntos_medio: 500
+  vida_medio: 3
+  ani_fuerte:
+  - {fileID: -1842052744, guid: 3fb125e52a5689548a3b84dfea72548d, type: 3}
+  - {fileID: 621098919, guid: 3fb125e52a5689548a3b84dfea72548d, type: 3}
+  puntos_fuerte: 1000
+  vida_fuerte: 6
+  offset_enes: 0
+  time: 0
+  ene_prefav: {fileID: 3196129070096950614, guid: c7fa4332a1334574bb31d3adc0917800, type: 3}
